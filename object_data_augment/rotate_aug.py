@@ -107,9 +107,9 @@ class ImgAugemention():
 
 if __name__ == '__main__':
     img_aug = ImgAugemention()
-    imgs_path = "/home/kinsozheng/Desktop/EAD2020_dataType_framesOnly/EAD2020_dataType_framesOnly/frames/"
-    xmls_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/xml/"
-    img_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/rotated_img/"
-    xml_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/xml_rotated/"
+    imgs_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/train_images/"
+    xmls_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/train_xmls/"
+    img_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/rotated_train_images/"
+    xml_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/rotated_train_xmls/"
     angle_list = [30, 60, 180]
     img_aug.process_img(imgs_path, xmls_path, img_save_path, xml_save_path, angle_list)

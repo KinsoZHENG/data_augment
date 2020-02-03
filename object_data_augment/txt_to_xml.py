@@ -96,7 +96,10 @@ def makexml(txtPath, xmlPath, picPath):  # 读取txt路径，xml保存路径，�
         f.close()
 
 
-all_txt_path = "/home/kinsozheng/Desktop/EAD2020_dataType_framesOnly/EAD2020_dataType_framesOnly/gt_bbox/"
-xml_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/xml/"
-all_pic_path = "/home/kinsozheng/Desktop/EAD2020_dataType_framesOnly/EAD2020_dataType_framesOnly/frames/"
+# all_txt_path = "/home/kinsozheng/Desktop/EAD2020_dataType_framesOnly/EAD2020_dataType_framesOnly/gt_bbox/"
+# xml_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/xml/"
+# all_pic_path = "/home/kinsozheng/Desktop/EAD2020_dataType_framesOnly/EAD2020_dataType_framesOnly/frames/"
+all_txt_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/new_val_txt/"
+xml_save_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/new_val_xml/"
+all_pic_path = "/home/kinsozheng/Desktop/data_augment/object_data_augment/new_val_img/"
 makexml(all_txt_path, xml_save_path, all_pic_path)
